@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <style>
+
+    /* One of these two made the background black */
+    html{
+      background-color: #000010;
+    }
+
+    
+    
+    body{
+      background-color: #000010;
+    }
+    /**********************************************/
+
+    #div2{
+      color: #000000;
+      background-color: #ffffff;
+      text-align: left;
+      width: 60%;
+      /* Makes div2 centered */
+      margin-left: auto; 
+      margin-right: auto;
+    }
+
+    div{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /*
+    #mydiv {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    */
+
+    img.center{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+        color: white;
+      background-color: #787878;
+      display: block;
+        text-align: center;
+    }
+
+    p {
+        color: white;
+        font-family: verdana;
+        font-size: 18px;
+      text-align: center;
+    }
+    /*Test p2*/
+    p2 {
+
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      
+        color: white;
+        font-family: verdana;
+        font-size: 18px;
+      text-align: left;
+    }
+
+
+    p a:link{
+      color: #46f1e1;
+
+    }
+    /*For Horizontal Navigation Bar*/
+    u1{
+      position: fixed;
+      top: 0;
+      width: 100%;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #fff929;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a{
+      display: block;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover{
+      background-color: #000000;
+    }
+
+    .active{
+      display:block;
+      background-color: #ffffff;
+      color: #000000;
+      text-decoration: none;
+    }
+
+/***********************/
+    </style>
+  </head>
+</html>
+
+
+
