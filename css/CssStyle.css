@@ -2,13 +2,12 @@
   <head>
     <style>
 
-    /* One of these two made the background black */
+    /*IDK where I'll see this background color but oh well*/
     html{
       background-color: #000010;
     }
 
-    
-    
+    /* This one made background change*/
     body{
       background-color: #000010;
     }
@@ -30,14 +29,6 @@
       margin-right: auto;
     }
 
-    /*
-    #mydiv {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    */
 
     img.center{
       display: block;
@@ -52,65 +43,69 @@
         text-align: center;
     }
 
-    p {
-        color: white;
-        font-family: verdana;
-        font-size: 18px;
-      text-align: center;
-    }
-    /*Test p2*/
-    p2 {
 
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-      
-        color: white;
-        font-family: verdana;
-        font-size: 18px;
-      text-align: left;
-    }
 
 
     p a:link{
       color: #46f1e1;
 
     }
-    /*For Horizontal Navigation Bar*/
-    u1{
-      position: fixed;
-      top: 0;
-      width: 100%;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #fff929;
-    }
+    
+	h3 {
+	  background:transparent;
+	  text-align: center;
+	  margin: 0 0 20px;
+	  color: #fff;
+	  position:relative;
+	  left:0;
+	  top:0;
+	  text-transform:capitalize;
+	}
 
-    li {
-        float: left;
-    }
-
-    li a{
-      display: block;
-      color: #ffffff;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-
-    li a:hover{
-      background-color: #000000;
-    }
-
-    .active{
-      display:block;
-      background-color: #ffffff;
-      color: #000000;
-      text-decoration: none;
-    }
-
+	#send {
+	  background: #333;
+	  margin: auto;
+	  padding: 50px;
+	  border-radius: 10px;
+	  font-size: 2em;
+	  width: 315px;
+	}
+	
+	#guess {
+	  background: #333;
+	  margin: auto;
+	  padding: 50px;
+	  border-radius: 10px;
+	  font-size: 2em;
+	  width: 315px;
+	}
+	
+	.form {
+	  display:flex;
+	  justify-content:space-between;
+	}
+	
+	input {
+	  border: 1px solid #ddd0d2;
+	  background: #FFFCFA;
+	  padding: 5px;
+	  width: 100px;
+	  font-size: 16px;
+	  text-align: center;
+	  position:relative;
+	}
+	
+	button {
+	  background: #7eff83;
+	  border: 1px solid #666;
+	  padding: 5px;
+	  color: #000;
+	  width: 250px;
+	  font-size: 1em;
+	  cursor: pointer;
+	  font-weight:bold;
+	}
+	
 /***********************/
     </style>
   </head>
