@@ -1,0 +1,3 @@
+Log:
+January 5, 2018
+1:30pm Finished Navigational Bar move from test website onto this one
